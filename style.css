@@ -1,0 +1,82 @@
+body{
+background: #dfe6e9;
+display: flex; 
+}
+
+.container{
+    width: 90%;
+    margin: 100px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: -14px;
+
+    
+}
+p{
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: -10px;
+    visibility: hidden; 
+    font-family: monospace;
+    color:rgb(59, 59, 59)
+}
+h2{
+    text-align: center;
+    visibility: hidden;
+    font-family: monospace;
+    color:rgb(59, 59, 59);
+}
+
+.pokemon{
+    width: 350px;
+    height: 230px;
+    margin: 10px 10px;
+    transition: 0.4s;
+   
+}
+
+#ch{
+    background-color:orange;
+    
+}
+#pCh{
+    color:rgb(112, 45, 0);
+}
+#sq{
+    background-color: rgb(96, 236, 218);
+}
+#pSq{
+    color:rgb(8, 87, 76) ;
+}
+
+#pi{
+    background-color: rgb(243, 243, 101);
+   
+}
+#pPi{
+    color: rgb(94, 94, 10) ;
+}
+
+.pokemon:hover p{
+    visibility:visible;
+}
+.pokemon:hover h2{
+    visibility:visible;
+}
+.pokemon:hover {
+transform: scale(1.2);
+box-shadow: 20px 100px 50px gray;
+height: 350px;
+}
